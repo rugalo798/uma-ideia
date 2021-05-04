@@ -23,6 +23,7 @@ export async function getStaticProps() {
     props: {
       staticDateString,
     },
+    revalidate: 1
   };
 }
 

@@ -1,14 +1,14 @@
-import Link from 'next'
+import Link from "next/link";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-            <Link href="/sobre">
-                <a>Acessar a página Sobre!</a>
-            </Link>
-        </div>   
-    )
-}
+  return (
+    <div>
+      <h1>Home</h1>
+      <Link href="/sobre">
+        <a>Acessar a página sobre!</a>
+      </Link>
+    </div>
+  );
+};
 
 export default Home;
